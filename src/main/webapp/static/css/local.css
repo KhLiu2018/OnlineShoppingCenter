@@ -1,0 +1,148 @@
+@charset "UTF-8";
+.country-86 .currency-yen { font-size: 90%; }
+.country-86 #product-cards .panel-product .product-cost { font-size: 18px; font-size: 1.125rem; }
+.country-86 .shaic-logo { padding-top: 15px; }
+
+.country-86.page-guest-enter-delivery-address .form-column { padding: 0; }
+.country-86.page-guest-enter-delivery-address .form-column .fieldset-heading { padding: 0 60px; margin-bottom: 10px; }
+.country-86.page-guest-enter-delivery-address .form-column .iframe { background: #fff; padding: 30px 60px 0 60px; }
+.country-86.page-guest-enter-delivery-address .form-column .iframe iframe { height: 450px; }
+
+.country-86 .page-header { margin-bottom: 10px; padding: 10px 0; }
+.country-86 .form-register, .country-86 .register-sidebar, .country-86 .form_deliveryaddress { padding-top: 20px; }
+.country-86 .iframe iframe { height: 450px; }
+
+.lang-zh .food-icons-sprite, .lang-zh .food-icons-new, .lang-zh .food-icons-spicy { background-image: url('../img/sprite-food-icons.png'); background-repeat: no-repeat; }
+.lang-zh .food-icons-new { background-position: 0 0; height: 42px; width: 42px; }
+.lang-zh .food-icons-spicy { background-position: 0 -42px; height: 42px; width: 42px; }
+.lang-zh .btn { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh h1 { font-size: 24px; font-size: 1.5rem; }
+.lang-zh.page-order h1 { line-height: 40px; }
+.lang-zh .btn { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .list-group-form-control, .lang-zh .form-control { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .action-secondary { font-family: Georgia, "Times New Roman", Times, serif; }
+.lang-zh .fieldset-heading .instructions { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh label.control-hint, .lang-zh label.error { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .field-label { font-size: 16px; font-size: 1rem; }
+.lang-zh html { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; /* 1 */ }
+.lang-zh code, .lang-zh kbd, .lang-zh pre, .lang-zh samp { font-family: Menlo, Monaco, Consolas, "Courier New", monospace; }
+.lang-zh h1, .lang-zh h2, .lang-zh h3, .lang-zh h4, .lang-zh h5, .lang-zh h6, .lang-zh .h1, .lang-zh .h2, .lang-zh .h3, .lang-zh .h4, .lang-zh .h5, .lang-zh .h6 { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .text-flama { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .text-din, .lang-zh .table-product-detail tr .quantity { font-family: "Din Black", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .text-sans-serif { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .text-default-font { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .type-flama, .lang-zh .field-label, .lang-zh .table-trackorder tbody td, .lang-zh .sidebar-menu .menu, .lang-zh .table-price-charge, .lang-zh .table-contact-detail th, .lang-zh .table-product-detail tr .product-name, .lang-zh .table-product-detail tr .tax, .lang-zh .faq .faq-title, .lang-zh .faq-help .faq-help-title { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .type-sans, .lang-zh .error-container, .lang-zh .table-addressbook, .lang-zh .modal-alert .modal-content .modal-agreement, .lang-zh .table-receipt-order-detail, .lang-zh .table-contact-detail td, .lang-zh .table-product-detail tr .product-name ul li, .lang-zh .special-instructions .copy, .lang-zh .special-instructions .thank-you, .lang-zh .copyright { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .food-menu .primary-menu { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; font-size: 15px; font-size: 0.9375rem; }
+.lang-zh a.action-link { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; font-size: 15px; font-size: 0.9375rem; }
+.lang-zh .panel-product { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .table-addressbook .address-number { font-family: "Din Black", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .table-delivery-address, .lang-zh .table-delivery-datetime, .lang-zh .table-cost { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .table-order-product > tbody > tr .quantity { font-family: "Din Black", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .table-order-product > tbody > tr .product-name > ul li { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .table-order-product > tbody > tr .product-name > h5 { font-size: 18px; font-size: 1.125rem; }
+.lang-zh .table-order-product > tbody > tr .picture > h5 { font-size: 18px; font-size: 1.125rem; }
+.lang-zh .table-order-details .quantity { font-family: "Din Black", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .table-order-details .product-name { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .table-order-details .product-name h5 { font-weight: normal; }
+.lang-zh .table-order-details .product-name > ul li { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .table-order-details .cost { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; font-size: 20px; font-size: 1.25rem; }
+.lang-zh .table-order-details .picture h5, .lang-zh .table-order-details .picture-img h5 { font-weight: normal; }
+.lang-zh .table-menu-order-detail .quantity { font-family: "Din Black", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .table-menu-order-detail .product-name > ul li { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .configurator-header { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .configurator-footer .subtotal, .lang-zh .configurator-footer .tax { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; font-size: 15px; font-size: 0.9375rem; line-height: 41px; }
+.lang-zh .configurator-footer .action-cancel { line-height: 41px; }
+.lang-zh .configurator-footer .loading { padding: 5px; }
+.lang-zh .table-select-meal .tax-column, .lang-zh .table-select-meal .cost-column, .lang-zh .table-select-meal .calories-column { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; font-size: 16px; font-size: 1rem; }
+.lang-zh .modal-select-toys p { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .page-menu .sidebar-menu { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .ordering-steps { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .menu-detail { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .action-edit { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .notes { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .table-menu-availability { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .table-menu-availability tr td > .last-order { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .table-menu-availability th { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .global-header .header-actions { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .global-navbar .navbar-nav .menu-item-target { font-family: "Din Black", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .global-navbar .navbar-nav > .open .dropdown-menu { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .global-footer { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .footer-disclaimer { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .sidebar-menu .menu .menu-item-target { font-size: 16px; font-size: 1rem; }
+.lang-zh .home-section.promotions .promotion-description { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .home-section.promotions .promotion-title { font-size: 18px; }
+.lang-zh .panel-home-masthead { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .address-status { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .home-myorders .empty-template .media-body { font-size: 15px; font-size: 0.9375rem; font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; line-height: 1.5; }
+.lang-zh .home-myorders .empty-template .media-heading { font-size: 20px; font-size: 1.25rem; }
+.lang-zh .modal-login .header-new-customer { font-size: 22px; font-size: 1.375rem; }
+.lang-zh .modal-login .action-forgot-password, .lang-zh .modal-login .action-advance-order { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .modal-alert .modal-content .time-disclaimer { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .modal-alert .modal-content .alert-content { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .modal-deliveryoptions .note, .lang-zh .modal-advanceorder .note { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .modal-deliveryoptions .deliverydatetime-status, .lang-zh .modal-advanceorder .deliverydatetime-status { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .order-verification .order-verification-detail { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .empty-template { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .table-order-history { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .table-order-history .order-address, .lang-zh .table-order-history .order-id, .lang-zh .table-order-history .order-controls { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .table-order-history .order-cost { font-size: 20px; font-size: 1.25rem; }
+.lang-zh .table-order-history .order-id a { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; font-size: 18px; font-size: 1.125rem; }
+.lang-zh .condiment-item .item-name { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .order-summary .empty-template { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .order-items .quantity { font-family: "Din Black", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .order-items .details ul { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .order-items .tax, .lang-zh .order-items .cost { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .customization-note { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .table-price-charge .total-charge, .lang-zh .table-price-charge .total-charge-price { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .table-price-charge .charge-title { font-size: 16px; font-size: 1rem; }
+.lang-zh .table-price-charge .charge-title, .lang-zh .table-price-charge .charge-price { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .table-product-detail tr .product-name { font-size: 16px; font-size: 1rem; }
+.lang-zh .table-product-detail tr .total { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .special-instructions .title { font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .btn.selectpicker { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .checkbox .checkbox-label { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; font-size: 14px; font-size: 0.875rem; }
+.lang-zh .radio .radio-label { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .ui-selectmenu-menu { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .ui-state-default { font-family: Helvetica, Arial, "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh h1 { font-size: 24px; font-size: 1.5rem; }
+.lang-zh .register-benefits ul > li { font-size: 12px; font-size: 0.75rem; }
+.lang-zh .ordering-steps .steps-header, .lang-zh .ordering-steps .steps { font-size: 12px; font-size: 0.75rem; }
+.lang-zh .panel-home-masthead-form .header-new-customer { font-size: 22px; font-size: 1.375rem; font-weight: bold; }
+.lang-zh .panel-home-masthead-form .action-check-address { font-size: 1.2rem; }
+.lang-zh .table-delivery-address td { font-size: 16px; font-size: 1rem; }
+.lang-zh .table-delivery-datetime td { font-size: 16px; font-size: 1rem; }
+.lang-zh .table-delivery-datetime .how-long-to-deliver { font-size: 16px; font-size: 1rem; }
+.lang-zh .table-delivery-datetime .how-long-to-deliver b { font-size: 16px; font-size: 1rem; }
+.lang-zh .order-summary .action-edit-promocode { font-size: 17px; font-size: 1.0625rem; }
+.lang-zh .table-cost tfoot.total th { font-size: 20px; font-size: 1.25rem; }
+.lang-zh .table-cost tfoot.total td { font-size: 30px; font-size: 1.875rem; }
+.lang-zh .text-default { font-size: 15px; font-size: 0.9375rem; }
+.lang-zh .mcd.mcd-detail { vertical-align: bottom; }
+.lang-zh .table-menu-availability tr .days { font-size: 19px; font-size: 1.1875rem; }
+.lang-zh .table-menu-availability tr .menu-type { font-size: 20px; font-size: 1.25rem; }
+.lang-zh .table-menu-availability tr td { font-size: 18px; font-size: 1.125rem; }
+.lang-zh h4, .lang-zh .h4 { font-size: 16px; font-size: 1rem; }
+.lang-zh h3, .lang-zh .h3 { font-size: 20px; font-size: 1.25rem; }
+.lang-zh h2, .lang-zh .h2 { font-size: 22px; font-size: 1.375rem; }
+.lang-zh .panel-section .panel-section-title { line-height: 1.8; }
+.lang-zh .panel-section.condiments > a { font-size: 16px; font-size: 1rem; }
+.lang-zh .table-trackorder tbody td h4, .lang-zh .table-trackorder tbody td p { font-size: 16px; font-size: 1rem; height: auto; }
+.lang-zh .table-order-history-detail td { font-size: 17px; font-size: 1.0625rem; }
+.lang-zh .fieldset-title { font-size: 20px; font-size: 1.25rem; line-height: 1.5; }
+.lang-zh .modal-alert .modal-content .modal-header > h1 { margin: 40px 0 10px 0; font-size: 30px; font-size: 1.875rem; }
+.lang-zh .actions a, .lang-zh .btn-lg { font-size: 15px; font-size: 0.9375rem; }
+.lang-zh .btn-xl { font-size: 24px; font-size: 1.5rem; }
+.lang-zh .order-history .date { font-size: 21px; font-size: 1.3125rem; }
+.lang-zh .order-history .total { font-size: 21px; font-size: 1.3125rem; }
+.lang-zh .order-history .price { font-size: 21px; font-size: 1.3125rem; font-family: "Flama Condensed Medium", "SimHei", "Microsoft YaHei", "STXihei", "华文细黑", sans-serif; }
+.lang-zh .my-favourite-title { line-height: 1.2; font-size: 17px; font-size: 1.0625rem; }
+.lang-zh .meal-customization h3 { font-size: 16px; font-size: 1rem; }
+.lang-zh #countdowntimer-title { font-size: 30px; font-size: 1.875rem; }
+.lang-zh .modal-alert .modal-content .time-disclaimer { font-size: 18px; font-size: 1.125rem; }
+.lang-zh .footer-nav h3 { font-size: 20px; font-size: 1.25rem; }
+.lang-zh .customize-item-header .item-title { font-size: 18px; font-size: 1.125rem; line-height: 1.5; }
+.lang-zh .customization-group .group-title { font-size: 18px; font-size: 1.125rem; text-align: center; }
+.lang-zh .order-history-total .save-to-fav { font-size: 15px; font-size: 0.9375rem; }
+
+/*# sourceMappingURL=local.css.map */

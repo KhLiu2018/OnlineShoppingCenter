@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Menu</title>
+    <th:block th:include="fragments/head :: head"/>
+
+    <script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-TQHPHB"></script>
+    <link rel="stylesheet" href="/css/offcanvas.css" type="text/css" />
+    <link rel="stylesheet"  href="/css/main.css" type="text/css" />
+    <link rel="stylesheet"  href="/css/local.css" type="text/css" />
+
+    <!--<script src="/js/ie10-viewport-bug-workaround.js"></script>-->
+    <script src="/js/tether.min.js" ></script>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/modernizr.min.js"></script>
+    <script type="text/javascript" src="/js/offcanvas.js"></script>
+    <script type="text/javascript" src="/js/plugins.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="/js/local.js"></script>
+    <script type="text/javascript" src="/js/store.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+        <div class="container">
+            <a class="navbar-brand" href="/index">Online Shopping</a>
+            <ul class="nav navbar-nav">
+                <li class="nav-item active"><a class="nav-link" href="/index">Home</a></li>
+                <!--<li class="nav-item"><a class="nav-link" href="/about">About</a></li>-->
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li th:if="${subject.authenticated}"><a class="nav-link" th:text="${subject.getPrincipal().toString()}"></a></li>
+                <li th:unless="${subject.authenticated}"><a class="nav-link">Guest</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 th:text="${curCity}+'Menu'" class="sub-header"></h1>
+        <div class="table-responsive">
+            <div class="configurator-step step-choose-meals">
+                <div class="step-content">
+                    <form name="Menuform" th:action="'/order/'+${curCity}" method="POST" accept-charset="UTF-8" role="form">
+                    <div id="available-sets"><div>
+                        <table id="table-select-meal" class="table table-select-meal">
+                            <thead>
+                                <tr>
+                                    <th class="controls-column">&nbsp;</th>
+                                    <th class="picture-column">&nbsp;</th>
+                                    <th class="description-column">&nbsp;</th>
+                                    <th class="cost-column">Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            <tr class="selected">
+                                <td class="controls-column">
+                                    <div class="input-group item-quantity item-quantity-picker">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-decrease action-decrease btn-black">
+                                                <i class="mcd mcd-minus icon"></i>
+                                            </button>
+                                        </span>
+                                        <input name="commodity1" value="0" min="0" max="99" class="form-control" maxlength="1" type="number">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-increase action-increase btn-black">
+                                                <i class="mcd mcd-plus icon"></i>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td class="picture-column">
+                                    <img th:src="'/images/'+${commodity1_pic}" alt="" class="img-block">
+                                </td>
+                                <td class="description-column">
+                                    <h4 th:text="${commodity1}" class="item-title"></h4>
+                                    <p class="item-description"></p>
+                                </td>
+                                <td th:text="${price1}" class="cost-column"></td>
+                            </tr>
+
+                            <tr class="selected">
+                                <td class="controls-column">
+                                    <div class="input-group item-quantity item-quantity-picker">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-decrease action-decrease btn-black">
+                                                <i class="mcd mcd-minus icon"></i>
+                                            </button>
+                                        </span>
+                                        <input name="commodity2" value="0" min="0" max="99" class="form-control" maxlength="1" type="number">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-increase action-increase btn-black">
+                                                <i class="mcd mcd-plus icon"></i>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td class="picture-column">
+                                    <img th:src="'/images/'+${commodity2_pic}" alt="" class="img-block">
+                                </td>
+                                <td class="description-column">
+                                    <h4 th:text="${commodity2}" class="item-title"></h4>
+                                    <p class="item-description"></p>
+                                </td>
+                                <td th:text="${price2}" class="cost-column"></td>
+                            </tr>
+
+                            <tr class="selected">
+                                <td class="controls-column">
+                                    <div class="input-group item-quantity item-quantity-picker">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-decrease action-decrease btn-black">
+                                                <i class="mcd mcd-minus icon"></i>
+                                            </button>
+                                        </span>
+                                        <input name="commodity3" value="0" min="0" max="99" class="form-control" maxlength="1" type="number">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-increase action-increase btn-black"><i class="mcd mcd-plus icon"></i></button>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td class="picture-column">
+                                    <img th:src="'/images/'+${commodity3_pic}" alt="" class="img-block">
+                                </td>
+                                <td class="description-column">
+                                    <h4 th:text="${commodity3}" class="item-title"></h4>
+                                    <p class="item-description"></p>
+                                </td>
+                                <td th:text="${price3}" class="cost-column"></td>
+                            </tr>
+
+                            <tr class="selected">
+                                <td class="controls-column">
+                                    <div class="input-group item-quantity item-quantity-picker">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-decrease action-decrease btn-black">
+                                                <i class="mcd mcd-minus icon"></i>
+                                            </button>
+                                        </span>
+                                        <input name="commodity4" value="0" min="0" max="99" class="form-control" maxlength="1" type="number">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-increase action-increase btn-black"><i class="mcd mcd-plus icon"></i></button>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td class="picture-column">
+                                    <img th:src="'/images/'+${commodity4_pic}" alt="" class="img-block">
+                                </td>
+                                <td class="description-column">
+                                    <h4 th:text="${commodity4}" class="item-title"></h4>
+                                    <p class="item-description"></p>
+                                </td>
+                                <td th:text="${price4}" class="cost-column"></td>
+                            </tr>
+
+                            <tr class="selected">
+                                <td class="controls-column">
+                                    <div class="input-group item-quantity item-quantity-picker">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-decrease action-decrease btn-black">
+                                                <i class="mcd mcd-minus icon"></i>
+                                            </button>
+                                        </span>
+                                        <input name="commodity5" value="0" min="0" max="99" class="form-control" maxlength="1" type="number">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-increase action-increase btn-black"><i class="mcd mcd-plus icon"></i></button>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td class="picture-column">
+                                    <img th:src="'/images/'+${commodity5_pic}" alt="" class="img-block">
+                                </td>
+                                <td class="description-column">
+                                    <h4 th:text="${commodity5}" class="item-title"></h4>
+                                    <p class="item-description"></p>
+                                </td>
+                                <td th:text="${price5}" class="cost-column"></td>
+                            </tr>
+
+                            <tr class="selected">
+                                <td class="controls-column">
+                                    <div class="input-group item-quantity item-quantity-picker">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-decrease action-decrease btn-black">
+                                                <i class="mcd mcd-minus icon"></i>
+                                            </button>
+                                        </span>
+                                        <input name="commodity6" value="0" min="0" max="99" class="form-control" maxlength="1" type="number">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="btn btn-increase action-increase btn-black"><i class="mcd mcd-plus icon"></i></button>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td class="picture-column">
+                                    <img th:src="'/images/'+${commodity6_pic}" alt="" class="img-block">
+                                </td>
+                                <td class="description-column">
+                                    <h4 th:text="${commodity6}" class="item-title"></h4>
+                                    <p class="item-description"></p>
+                                </td>
+                                <td th:text="${price6}" class="cost-column"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                        <input th:if="${subject.authenticated}" class="btn btn-lg btn-success btn-block" type="submit" value="SUBMIT"/>
+                        <div th:unless="${subject.authenticated}">
+                            <a th:href="@{/login.html}" class="btn btn-lg btn-success btn-block">Sign in before Order</a>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+    </div>
+
+</body>
+</html>
